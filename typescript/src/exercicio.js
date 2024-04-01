@@ -1,7 +1,11 @@
 "use strict";
 function multiplicaNumeros(num1, num2) {
-    num1 = 2;
-    num2 = 5;
     return num1 * num2;
 }
-console.log(multiplicaNumeros);
+const resultado = multiplicaNumeros(10, 12);
+console.log(resultado);
+function saudacao(nome) {
+    return "Olá" + nome;
+}
+const mensagem = saudacao("Rachel");
+console.log(mensagem);
